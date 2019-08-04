@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kirk Lennon&rsquo;s Breaking News Site</title>
+<style>
+body {
+	font-size: 16px;
+	background-color: #efefef;
+	color: #333;}
+header {
+	width: 55rem;
+	background-color: #eee;
+	font-family: monospace;}
+footer {
+	font-family: monospace;
+	width: 55em; }
+header h1 {
+	font-size: 3.5rem;}
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%; }
+main {
+	width: 55em;}
+</style>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+<body>
+<div id="wrapper">
+<header><h1>Kirk Lennon&rsquo;s Breaking News Site</h1></header>
+<main>

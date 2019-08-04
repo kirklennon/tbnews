@@ -1,0 +1,15 @@
+</main>
+<footer>
+<p>Inspired by <a href="https://twitter.com/waxpancake/status/1156718096243019776">this tweet by
+ Andy Baio</a>, this site searches Twitter for tweets where journalists are 
+ asking for permission to use someone's video, and then shows the tweet they 
+ were replying to. The whole thing is written in about 30 lines of python, plus 
+ use of the Twython, urllib, and json libraries. There&rsquo;s no real need for 
+ it to refresh live, so it just runs as a cron job every five minutes and 
+ generates a static HTML page.</p>
+ <p>Made with very little experience by 
+ <a href="https://twitter.com/kirklennon">Kirk Lennon</a>.</p>
+</footer>
+</wrapper>
+</body>
+</html>
