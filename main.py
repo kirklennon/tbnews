@@ -1,4 +1,3 @@
-# Import the Twython class
 from twython import Twython
 import json
 import urllib
