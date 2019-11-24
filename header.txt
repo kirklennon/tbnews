@@ -2,28 +2,27 @@
 <html>
 <head>
 <title>Kirk Lennon&rsquo;s Breaking News Site</title>
+<meta name="viewport" content="width=520">
 <style>
 body {
 	font-size: 16px;
 	background-color: #efefef;
 	color: #333;}
-header {
-	width: 55rem;
-	background-color: #eee;
-	font-family: monospace;}
-footer {
-	font-family: monospace;
-	width: 55em; }
+header, footer {
+	max-width: 55rem;
+	font-family: Garamond, Big Caslon, Baskerville, Georgia, serif;}
 header h1 {
-	font-size: 3.5rem;}
+	font-size: 3.5rem;
+	text-align: center;}
 #wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	width: 100%; }
-main {
-	width: 55em;}
+@media only screen and (max-device-width: 480px) {
+header, footer {max-width:90vw;}
+}
 </style>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
